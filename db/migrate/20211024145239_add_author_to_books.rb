@@ -1,5 +1,5 @@
 class AddAuthorToBooks < ActiveRecord::Migration[6.1]
   def change
-    add_column :books, :name, :string
+    add_column :authors, :name, :string
   end
 end

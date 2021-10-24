@@ -12,6 +12,7 @@
   <tbody>
     <% @authors.each do |author| %>
       <tr>
+        <td><%=author.name%></td>
         <td><%= link_to 'Show', author %></td>
         <td><%= link_to 'Edit', edit_author_path(author) %></td>
         <td><%= link_to 'All books', view_books_author_path(author)%></td>
